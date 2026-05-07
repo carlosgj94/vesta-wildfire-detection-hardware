@@ -192,6 +192,215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 2.54 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+				(at 2.54 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_0"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin open_collector line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -4517,6 +4726,18 @@
 		(uuid "00210a87-b471-408e-9cc0-6d2afa8e52b9")
 	)
 	(rectangle
+		(start 121.92 205.74)
+		(end 194.31 257.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "14688422-5a8e-4144-b61c-de67ed9a9ce5")
+	)
+	(rectangle
 		(start 21.59 147.32)
 		(end 93.98 180.34)
 		(stroke
@@ -4663,6 +4884,16 @@
 			)
 		)
 		(uuid "e2a1b931-115a-4290-82eb-1d39863ca92d")
+	)
+	(text "Boot & Reset"
+		(exclude_from_sim no)
+		(at 129.286 203.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2f05095-b1cf-4587-abb4-7ed91afc1cf6")
 	)
 	(text "Verify cable polarity before assembly."
 		(exclude_from_sim no)
@@ -4822,6 +5053,12 @@
 		(uuid "b6dc5eaa-117e-4051-9dcc-0d28ffdb8cef")
 	)
 	(junction
+		(at 179.07 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b94b92ef-1fff-475c-b3b5-e01f86d1d0eb")
+	)
+	(junction
 		(at 369.57 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4850,6 +5087,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efc03830-7e12-4552-bb48-8d3af4d5d5c4")
+	)
+	(junction
+		(at 142.24 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f52b5ce8-9095-489f-b5da-2d1e678c3a14")
 	)
 	(junction
 		(at 377.19 170.18)
@@ -4924,6 +5167,16 @@
 			(type default)
 		)
 		(uuid "122d65d8-e3ba-44dc-918b-6c25d9175e8b")
+	)
+	(wire
+		(pts
+			(xy 135.89 254) (xy 142.24 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129f4bf5-cb76-45c7-bd82-47b5c1227eb5")
 	)
 	(wire
 		(pts
@@ -5257,6 +5510,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 223.52) (xy 177.8 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e8d4ba-c446-44bf-80df-c6f9ed3dad77")
+	)
+	(wire
+		(pts
 			(xy 358.14 77.47) (xy 358.14 80.01)
 		)
 		(stroke
@@ -5477,6 +5740,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 254) (xy 160.02 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0556fb5-6421-4ed4-a656-49da05a1d2e2")
+	)
+	(wire
+		(pts
 			(xy 381 81.28) (xy 381 85.09)
 		)
 		(stroke
@@ -5584,6 +5857,16 @@
 			(type default)
 		)
 		(uuid "cf1f16f7-89c9-4260-8862-902b477d73ab")
+	)
+	(wire
+		(pts
+			(xy 186.69 223.52) (xy 179.07 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cbd58e-80a0-4d5f-a69b-66e9dc6367cd")
 	)
 	(wire
 		(pts
@@ -5835,6 +6118,26 @@
 		)
 		(uuid "26998a77-049f-49d0-b66c-7bd2b6926d86")
 	)
+	(label "SWCLK"
+		(at 104.14 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27c40dd8-72f5-4f5b-8f68-cbe897761bc4")
+	)
+	(label "SWCLK"
+		(at 177.8 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "301ff57b-75c8-4367-9a90-bec440564803")
+	)
 	(label "CHARGER_PGOOD_N"
 		(at 372.11 90.17 0)
 		(effects
@@ -5855,6 +6158,46 @@
 		)
 		(uuid "3ee561a3-5b7c-4ffe-b657-7e1b12af0ae9")
 	)
+	(label "SWO"
+		(at 55.88 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43d1c2e6-ed29-4586-8a55-0d48cd67b2f0")
+	)
+	(label "PH3-BOOT0"
+		(at 135.89 254 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4bbcf3f3-c88b-42cd-b028-fc2a74cbdf5c")
+	)
+	(label "NRST"
+		(at 186.69 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50b2d2a7-a4a8-4ce2-8741-2fe3feae93e3")
+	)
+	(label "NRST"
+		(at 55.88 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "544e1f5e-792b-4c3e-94cd-408e9cf4c119")
+	)
 	(label "SYS_RAW"
 		(at 391.16 170.18 0)
 		(effects
@@ -5865,6 +6208,16 @@
 		)
 		(uuid "563b8c66-fb13-4269-8086-223924d2a4d8")
 	)
+	(label "PH3-BOOT0"
+		(at 55.88 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "566e17d9-4b3a-4429-8d1d-9837fb7ec342")
+	)
 	(label "3V3_SYS"
 		(at 124.46 50.8 0)
 		(effects
@@ -5874,6 +6227,16 @@
 			(justify left bottom)
 		)
 		(uuid "726747de-0f5b-46e9-8439-fc01f9628637")
+	)
+	(label "SWDIO"
+		(at 177.8 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76007aee-765b-47ed-93cd-2e6eb9773764")
 	)
 	(label "3V3_SYS"
 		(at 116.84 26.67 0)
@@ -5955,6 +6318,16 @@
 		)
 		(uuid "b0fbec84-95e3-4960-8360-c083564578a8")
 	)
+	(label "SWDIO"
+		(at 104.14 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1b6da01-fb1e-46a2-bc14-c5b4ebd120e8")
+	)
 	(label "OSC_IN"
 		(at 66.04 167.64 180)
 		(effects
@@ -6015,6 +6388,16 @@
 		)
 		(uuid "c25b6620-8140-4663-bc0d-778e62626a83")
 	)
+	(label "3V3_SYS"
+		(at 167.64 218.44 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c92a86c1-486e-4891-b73c-f6405eadf19b")
+	)
 	(label "PC15-OSC32_OUT"
 		(at 74.93 154.94 0)
 		(effects
@@ -6064,6 +6447,16 @@
 			(justify right bottom)
 		)
 		(uuid "df8768e1-ed73-4187-a816-d5d78d8021c8")
+	)
+	(label "SWO"
+		(at 177.8 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e204e72d-3a3a-4f1d-abf6-a52e9fff447c")
 	)
 	(label "VIN_SOLAR"
 		(at 341.63 39.37 180)
@@ -6579,6 +6972,85 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 215.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f16b2c-b7cc-41f9-8e3c-a772d27ae363")
+		(property "Reference" "#PWR037"
+			(at 179.07 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.0699 212.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a5334bb-d9dd-4681-9871-48b96abba0fb")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8598,6 +9070,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 167.64 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515f744d-d3da-4a76-b49d-74f195c64c56")
+		(property "Reference" "#PWR036"
+			(at 167.64 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6c490b6-5933-472d-b247-a6380542c9c8")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 40.64 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -9387,6 +9937,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 163.83 254 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d09f298-599e-40e3-a68b-c7679a1eefbd")
+		(property "Reference" "R11"
+			(at 163.83 247.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 163.83 250.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 252.222 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "75251764-6890-43ad-8e69-595a16e9284f")
+		)
+		(pin "1"
+			(uuid "82f01426-1cd6-4894-ab8b-33514b191430")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 358.14 97.79 90)
 		(unit 1)
@@ -9539,6 +10169,85 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 254 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a159ac6-59fa-4f81-b2ca-15f6c0637009")
+		(property "Reference" "TP3"
+			(at 144.78 249.4279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_BOOT0"
+			(at 144.78 251.9679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3f64727-1819-4317-8ef5-99380793efd1")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9938,6 +10647,85 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 254 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b4aa1bd-7eb4-4073-bc4f-91215769266f")
+		(property "Reference" "#PWR038"
+			(at 173.99 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 253.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55cf9202-a83a-48f3-a037-1116b81560f3")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10828,6 +11616,100 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
+		(at 170.18 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af3cb88b-a0a3-4ab1-9cff-8b05537b21f3")
+		(property "Reference" "J3"
+			(at 163.83 227.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(at 163.83 229.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 170.18 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+			(at 170.18 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 170.18 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "7b628eac-2202-4ce1-9d73-98665bb5f946")
+		)
+		(pin "4"
+			(uuid "b0f5f3d0-14cb-43cf-99b4-9935b9010076")
+		)
+		(pin "3"
+			(uuid "607cc93e-8ac3-433f-a2e8-d4b9c1e2187f")
+		)
+		(pin "2"
+			(uuid "a3041685-1808-45b4-a196-3d924ee7cd48")
+		)
+		(pin "1"
+			(uuid "596f6203-7f31-4efb-a604-a4817811efb8")
+		)
+		(pin "5"
+			(uuid "f490a5ba-0974-462e-bb1f-7c47f74c3313")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12407,6 +13289,85 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 219.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ecd1c9eb-fc7c-4ffe-b443-f9ee1883c55e")
+		(property "Reference" "C15"
+			(at 185.42 219.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 183.134 219.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 178.1048 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 179.07 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab9de97f-6260-46bb-9186-138c28e43dcf")
+		)
+		(pin "2"
+			(uuid "3a9f49fb-c60b-44e3-ae85-5991803f4d7b")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "C15")
 					(unit 1)
 				)
 			)
