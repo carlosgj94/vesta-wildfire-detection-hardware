@@ -2599,235 +2599,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:SHT40-AD1F-R2"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 7.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SHT40-AD1F-R2"
-				(at 0 -7.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:SHT40-AD1F-R2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://sensirion.com/media/documents/1D662E57/63934B18/Sensirion_Datasheet_SHT4xI-Digital.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-40℃~+125℃ 0%RH~100%RH 1.08V~3.6V 16bit 400nA Factory calibration、Chemical gas resistance、Built-in heater I2C ±0.2℃ ±1.8%RH DFN-4(1.5x1.5) Temperature and Humidity Sensor ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C7461846"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Sensirion"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "SHT40-AD1F-R2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C7461846 DFN-4_L1.5-W1.5-P0.80-TL-EP SHT40-AD1F-R2 Sensirion"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SHT40-AD1F-R2_0_1"
-				(circle
-					(center -6.35 1.27)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -5.08) (xy 7.2111 -5.0702) (xy 7.3064 -5.0413) (xy 7.3942 -4.9944) (xy 7.4712 -4.9312)
-						(xy 7.5344 -4.8542) (xy 7.5813 -4.7664) (xy 7.6103 -4.6711) (xy 7.62 -4.572) (xy 7.6103 4.6711)
-						(xy 7.5813 4.7664) (xy 7.5344 4.8542) (xy 7.4712 4.9312) (xy 7.3942 4.9944) (xy 7.3064 5.0413)
-						(xy 7.2111 5.0702) (xy 7.112 5.08) (xy -7.2111 5.0702) (xy -7.3064 5.0413) (xy -7.3942 4.9944)
-						(xy -7.4712 4.9312) (xy -7.5344 4.8542) (xy -7.5813 4.7664) (xy -7.6103 4.6711) (xy -7.62 4.572)
-						(xy -7.6103 -4.6711) (xy -7.5813 -4.7664) (xy -7.5344 -4.8542) (xy -7.4712 -4.9312) (xy -7.3942 -4.9944)
-						(xy -7.3064 -5.0413) (xy -7.2111 -5.0702) (xy -7.112 -5.08) (xy 7.112 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLCImport:STM32WL55CCU6"
 			(pin_names
 				(offset 1.016)
@@ -5297,6 +5068,18 @@
 		(uuid "8fd348cc-8475-4fe2-8e99-49f1ee0bf222")
 	)
 	(rectangle
+		(start 102.235 148.59)
+		(end 188.595 213.995)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b5907236-d87b-4924-85a6-2a86dc5a13c5")
+	)
+	(rectangle
 		(start 331.47 17.78)
 		(end 402.59 57.15)
 		(stroke
@@ -5353,6 +5136,28 @@
 			(justify left)
 		)
 		(uuid "4e07a556-4674-4ca7-8ad5-bb74a1b35dd6")
+	)
+	(text "e-nose"
+		(exclude_from_sim no)
+		(at 108.204 147.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "580f2bbb-a734-42df-a766-2566c9c5ef1d")
+	)
+	(text " Area              | Note                                                                                                           \n ----------------- | -------------------------------------------------------------------------------------------------------------- \n I²C mode          | `CSB` tied to `3V3_SYS` selects I²C mode.                                                                      \n I²C address       | `SDO` tied to `GND` selects address `0x76`. Tie to `3V3_SYS` for `0x77` if needed later.                       \n Decoupling caps   | Place `100nF` caps close to BME688 `VDD/GND` and `VDDIO/GND`. Short traces, direct GND via if possible.        \n Sensor placement  | Place BME688 near an air opening, not buried inside the PCB/enclosure.                                         \n Thermal isolation | Keep BME688 away from heat sources: STM32, buck-boost, charger, inductors, battery, solar-facing hot surfaces. \n Air exposure      | Sensor must see outside air, but should be protected from rain, insects, dust, and direct condensation.        \n No coating        | Do not conformal-coat or cover the BME688 sensing port.                                                        \n Layout            | Keep I²C traces short and away from RF antenna path and switching nodes.                                       \n"
+		(exclude_from_sim no)
+		(at 103.124 204.724 0)
+		(effects
+			(font
+				(face "Adwaita Mono")
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "5b490956-9796-40d4-b226-ad34336072d7")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -5514,6 +5319,18 @@
 		(uuid "2a4d5f2f-eb6b-43e3-8471-9fd409b79618")
 	)
 	(junction
+		(at 120.65 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b40e5bb-78ee-4919-aacf-25e1fbcd7d90")
+	)
+	(junction
+		(at 163.83 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f9f0e51-78a2-4652-8e7f-5817299757fc")
+	)
+	(junction
 		(at 125.73 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5524,6 +5341,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "363ec6fc-7427-4d99-9d99-3bcc90856342")
+	)
+	(junction
+		(at 154.94 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ce8d77d-4cc9-4c15-a10f-c0b1727756d0")
+	)
+	(junction
+		(at 120.65 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d111fc3-45f2-42c1-8d84-5c823ffb1d8b")
 	)
 	(junction
 		(at 212.09 93.98)
@@ -5646,10 +5475,22 @@
 		(uuid "cba04620-0fd9-4719-a935-133762a60862")
 	)
 	(junction
+		(at 154.94 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc0ce6bd-6a86-4d54-a0c6-d309a31a2af9")
+	)
+	(junction
 		(at 375.92 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0dda86e-946b-4f58-ab02-b5cababd86e1")
+	)
+	(junction
+		(at 115.57 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeaddb37-1e8e-46d4-991d-33dff1237102")
 	)
 	(junction
 		(at 350.52 39.37)
@@ -5706,6 +5547,16 @@
 			(type default)
 		)
 		(uuid "01ced8eb-bacf-4890-ac99-d4514fab6478")
+	)
+	(wire
+		(pts
+			(xy 120.65 157.48) (xy 132.08 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0788fd3b-c9d6-43b9-a305-f5300e74f9a0")
 	)
 	(wire
 		(pts
@@ -5809,6 +5660,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 172.72) (xy 120.65 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19243114-3afd-4ef2-843a-5e33e18f4aeb")
+	)
+	(wire
+		(pts
 			(xy 377.19 31.75) (xy 377.19 39.37)
 		)
 		(stroke
@@ -5816,6 +5677,16 @@
 			(type default)
 		)
 		(uuid "20fd39f7-4696-4024-931c-306b9c61ad31")
+	)
+	(wire
+		(pts
+			(xy 154.94 177.8) (xy 170.18 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c708b3-ec24-4121-be6f-ebf4f717e29c")
 	)
 	(wire
 		(pts
@@ -6039,6 +5910,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 177.8) (xy 154.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b7104f-550e-4262-86cd-059811d51715")
+	)
+	(wire
+		(pts
 			(xy 341.63 39.37) (xy 345.44 39.37)
 		)
 		(stroke
@@ -6066,6 +5947,16 @@
 			(type default)
 		)
 		(uuid "56606330-8181-483a-b117-293a58158398")
+	)
+	(wire
+		(pts
+			(xy 163.83 180.34) (xy 163.83 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5862ea8e-91a0-44fc-a902-116634129835")
 	)
 	(wire
 		(pts
@@ -6209,6 +6100,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 165.1) (xy 120.65 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7200bf34-e88b-4a3b-9b8b-0628750250e8")
+	)
+	(wire
+		(pts
 			(xy 308.61 120.65) (xy 320.04 120.65)
 		)
 		(stroke
@@ -6236,6 +6137,16 @@
 			(type default)
 		)
 		(uuid "794d1100-4b89-4f5c-853f-0f8ba7a1f70d")
+	)
+	(wire
+		(pts
+			(xy 120.65 172.72) (xy 127 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0882ef-c23b-4e73-b0c2-1e125e873965")
 	)
 	(wire
 		(pts
@@ -6289,6 +6200,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 191.77) (xy 154.94 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f58d6d9-cf11-4cff-ab28-7ad4c757135d")
+	)
+	(wire
+		(pts
 			(xy 387.35 179.07) (xy 387.35 177.8)
 		)
 		(stroke
@@ -6296,6 +6217,26 @@
 			(type default)
 		)
 		(uuid "922f35a7-3ed2-4c7d-8344-369d8a702cc7")
+	)
+	(wire
+		(pts
+			(xy 115.57 177.8) (xy 127 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b6f694-1ad5-4c73-aa67-f4f0523fd852")
+	)
+	(wire
+		(pts
+			(xy 154.94 177.8) (xy 154.94 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9324337f-ae0d-401d-9f3e-643c9a6340e3")
 	)
 	(wire
 		(pts
@@ -6359,6 +6300,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 177.8) (xy 115.57 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e670af0-4352-4b3f-b563-fcb1820a3b1e")
+	)
+	(wire
+		(pts
 			(xy 124.46 50.8) (xy 115.57 50.8)
 		)
 		(stroke
@@ -6389,6 +6340,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 180.34) (xy 170.18 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45c6a28-8c8e-4d9f-aeef-8b2589198005")
+	)
+	(wire
+		(pts
 			(xy 367.03 107.95) (xy 358.14 107.95)
 		)
 		(stroke
@@ -6406,6 +6367,16 @@
 			(type default)
 		)
 		(uuid "ac08d2dc-12ec-424b-aa0a-125851ac466c")
+	)
+	(wire
+		(pts
+			(xy 115.57 165.1) (xy 115.57 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac484da6-6944-4525-835e-5dffdea6f1c9")
 	)
 	(wire
 		(pts
@@ -6459,6 +6430,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 157.48) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8b61ad-b1c4-44f1-bae3-566da4270e7d")
+	)
+	(wire
+		(pts
 			(xy 377.19 39.37) (xy 382.27 39.37)
 		)
 		(stroke
@@ -6509,6 +6490,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 191.77) (xy 163.83 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d13fc652-f636-4ff1-9925-35f63d7512fe")
+	)
+	(wire
+		(pts
 			(xy 86.36 205.74) (xy 78.74 205.74)
 		)
 		(stroke
@@ -6556,6 +6547,16 @@
 			(type default)
 		)
 		(uuid "da7219bf-de86-45a2-897f-513e97c1a71d")
+	)
+	(wire
+		(pts
+			(xy 149.86 180.34) (xy 163.83 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1e024d-cff1-44b3-891c-bcb6c7b8ed25")
 	)
 	(wire
 		(pts
@@ -6698,6 +6699,16 @@
 		(uuid "f89a6036-33b1-411d-b62c-adba0a512d39")
 	)
 	(label "3V3_SYS"
+		(at 113.03 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01c27a91-9480-42b3-95dd-e9bacd4c57ae")
+	)
+	(label "3V3_SYS"
 		(at 154.94 58.42 0)
 		(effects
 			(font
@@ -6777,6 +6788,16 @@
 		)
 		(uuid "301ff57b-75c8-4367-9a90-bec440564803")
 	)
+	(label "3V3_SYS"
+		(at 113.03 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3377d965-e84f-4ef0-b363-1ff9e9043bce")
+	)
 	(label "RFI_N_OUT"
 		(at 55.88 91.44 180)
 		(effects
@@ -6786,6 +6807,16 @@
 			(justify right bottom)
 		)
 		(uuid "3ba0e1fd-25f0-4138-8fea-4028aa8bc372")
+	)
+	(label "SENSOR1_SDA"
+		(at 170.18 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d5ec770-9cd0-4cd3-ab16-363a19e828f6")
 	)
 	(label "CHARGER_PGOOD_N"
 		(at 372.11 90.17 0)
@@ -6846,6 +6877,16 @@
 			(justify right bottom)
 		)
 		(uuid "4bbcf3f3-c88b-42cd-b028-fc2a74cbdf5c")
+	)
+	(label "SENSOR1_SCL"
+		(at 170.18 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dd21b3c-07cc-4f10-8a2b-9b5b79ef391c")
 	)
 	(label "NRST"
 		(at 86.36 205.74 0)
@@ -7017,6 +7058,16 @@
 		)
 		(uuid "9527f3c8-2b84-44aa-97c8-ef9df389317c")
 	)
+	(label "3V3_SYS"
+		(at 143.51 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96062268-d827-470d-a21f-79bd5d783f64")
+	)
 	(label "PC15-OSC32_OUT"
 		(at 104.14 60.96 0)
 		(effects
@@ -7026,6 +7077,16 @@
 			(justify left bottom)
 		)
 		(uuid "982289e6-6047-4da9-933b-e2128e1bd4ef")
+	)
+	(label "3V3_SYS"
+		(at 149.86 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd492b1-08ab-43f7-bbba-592834d0bc38")
 	)
 	(label "3V3_SYS"
 		(at 135.89 119.38 180)
@@ -7046,6 +7107,26 @@
 			(justify left bottom)
 		)
 		(uuid "9d61ff56-1edd-4981-a0eb-5d31c446a000")
+	)
+	(label "SENSOR1_SDA"
+		(at 55.88 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e2c3cb6-22e1-4d97-b4ba-fbede62e567f")
+	)
+	(label "SENSOR1_SCL"
+		(at 55.88 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ecaa78f-efb0-4d57-b0b5-55f941674917")
 	)
 	(label "RF_ANT_SW"
 		(at 194.31 93.98 180)
@@ -8436,85 +8517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 262.89 229.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20ead633-f110-412a-ad32-266e8925d4a2")
-		(property "Reference" "#PWR027"
-			(at 269.24 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 229.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c58c230e-8e32-471b-b488-eb1f2f1f2aa3")
-		)
-		(instances
-			(project "vesta"
-				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:WAFER-PH2_0-2PWZ")
 		(at 299.72 24.13 0)
 		(unit 1)
@@ -9098,6 +9100,85 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 161.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3850c178-8cde-4734-86a8-091012fbe430")
+		(property "Reference" "C22"
+			(at 109.474 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 111.76 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.6048 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 115.57 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7c62227-b03b-4b2b-8ebd-e2f31941cc4d")
+		)
+		(pin "2"
+			(uuid "b7b9d02e-05ad-494d-8154-dda1e112076c")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -10702,6 +10783,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 127 180.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63699fcd-591b-4df5-a73b-7185ce35b639")
+		(property "Reference" "#PWR050"
+			(at 120.65 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 180.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "338a2574-9786-4f98-9a85-cf733f8021a6")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 129.54 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -11567,6 +11727,88 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84d7e9bd-fc8f-4fb0-b259-b7d5023b07a5")
+		(property "Reference" "R15"
+			(at 157.48 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 157.48 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.162 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8b364259-db93-4031-9d12-4fe61d348c35")
+		)
+		(pin "1"
+			(uuid "3c39fc54-d22d-452b-a0d0-d59e21d3865a")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12683,6 +12925,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3814840-0072-4b4d-af2f-eab1abd0ec8d")
+		(property "Reference" "#PWR048"
+			(at 156.21 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 172.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bb236eb-7f03-4532-82b5-c89baf7c0c37")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 124.46 62.23 0)
 		(unit 1)
@@ -12756,128 +13077,6 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:SHT40-AD1F-R2")
-		(at 252.73 232.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a891e336-9547-43ee-98ca-fd1e36f03b16")
-		(property "Reference" "U5"
-			(at 252.73 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SHT40-AD1F-R2"
-			(at 252.73 224.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:SHT40-AD1F-R2"
-			(at 252.73 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://sensirion.com/media/documents/1D662E57/63934B18/Sensirion_Datasheet_SHT4xI-Digital.pdf"
-			(at 252.73 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-40℃~+125℃ 0%RH~100%RH 1.08V~3.6V 16bit 400nA Factory calibration、Chemical gas resistance、Built-in heater I2C ±0.2℃ ±1.8%RH DFN-4(1.5x1.5) Temperature and Humidity Sensor ROHS"
-			(at 252.73 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7461846"
-			(at 252.73 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sensirion"
-			(at 252.73 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "SHT40-AD1F-R2"
-			(at 252.73 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "6050606d-c351-4fcc-9481-df7faa0fbbd3")
-		)
-		(pin "2"
-			(uuid "12ed6e9d-7032-44db-84ab-e8ca0a41ce01")
-		)
-		(pin "5"
-			(uuid "e63abbe5-15a2-4dbb-b522-a24810ec0e08")
-		)
-		(pin "1"
-			(uuid "21354d95-062f-4bd5-8bd0-1c9da5747917")
-		)
-		(pin "3"
-			(uuid "c6d3522b-1d99-41af-994c-8343e68d7cc8")
-		)
-		(instances
-			(project "vesta"
-				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -13408,6 +13607,85 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 161.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae9984cf-8591-4d92-9835-f487cdbd6ee1")
+		(property "Reference" "C23"
+			(at 127 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 124.714 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.6848 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39d5285f-7e62-4200-9e49-d171b10adce3")
+		)
+		(pin "2"
+			(uuid "db34bd7d-89ad-47bc-9ed4-c601d612e798")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -14438,6 +14716,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 132.08 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56406da-d008-4beb-9ab9-5481eeea2cab")
+		(property "Reference" "#PWR051"
+			(at 138.43 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 157.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0dcc531-6779-486c-a4b2-ad820f6af2f3")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 386.08 106.68 90)
 		(unit 1)
 		(body_style 1)
@@ -14675,8 +15032,87 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 127 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbd78aa5-537d-414c-be03-932f7dee61ff")
+		(property "Reference" "#PWR049"
+			(at 120.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 175.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9032460-7aeb-4ba5-b62e-31b8a2d5cd39")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:BME688_C3664478")
-		(at 252.73 210.82 0)
+		(at 138.43 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14687,7 +15123,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccf84933-1989-4c73-a59e-f8bf418d4768")
 		(property "Reference" "U4"
-			(at 252.73 199.39 0)
+			(at 138.43 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14697,7 +15133,7 @@
 			)
 		)
 		(property "Value" "BME688_C3664478"
-			(at 252.73 201.93 0)
+			(at 138.43 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14707,7 +15143,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:BME688_C3664478"
-			(at 252.73 210.82 0)
+			(at 138.43 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14718,7 +15154,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310170921_Bosch-Sensortec-BME688_C3664478.pdf"
-			(at 252.73 210.82 0)
+			(at 138.43 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14729,7 +15165,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 0%RH~100%RH 1.71V~3.6V 2.1uA I2C、SPI ±0.5℃ ±3%RH SMD-8P Temperature and Humidity Sensor ROHS"
-			(at 252.73 210.82 0)
+			(at 138.43 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14740,7 +15176,7 @@
 			)
 		)
 		(property "LCSC" "C3664478"
-			(at 252.73 210.82 0)
+			(at 138.43 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14751,7 +15187,7 @@
 			)
 		)
 		(property "Manufacturer" "Bosch Sensortec"
-			(at 252.73 210.82 0)
+			(at 138.43 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14762,7 +15198,7 @@
 			)
 		)
 		(property "Manufacturer Part" "BME688"
-			(at 252.73 210.82 0)
+			(at 138.43 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14879,6 +15315,88 @@
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce771592-5fd9-4684-b332-90d588b99445")
+		(property "Reference" "R16"
+			(at 166.37 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 166.37 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.052 187.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6b0eb429-7dff-42b4-801f-6d557bce7a66")
+		)
+		(pin "1"
+			(uuid "68ca9f29-4cd7-4a9d-99f0-57e418c9bd8c")
+		)
+		(instances
+			(project "vesta"
+				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
+					(reference "R16")
 					(unit 1)
 				)
 			)
