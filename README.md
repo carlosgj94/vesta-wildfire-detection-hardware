@@ -8,6 +8,10 @@ in harsh outdoor environments.
 The device is intended to detect local environmental changes that may indicate
 wildfire risk or an active fire, then report them as early as possible.
 
+## Schematic
+
+<img src="public/schematic.svg" alt="Vesta schematic" width="100%">
+
 ## Current Hardware
 
 The current KiCad schematic includes:
