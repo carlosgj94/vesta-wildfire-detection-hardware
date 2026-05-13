@@ -50,10 +50,32 @@
         "silk_text_thickness": 0.1524,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.508,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -200,6 +222,7 @@
         0.0,
         0.15,
         0.2,
+        0.25,
         0.4,
         0.6
       ],
@@ -566,19 +589,79 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "3V3_SYS"
+        "pattern": "*3V3*"
       },
       {
         "netclass": "Power",
-        "pattern": "SYS_RAW"
+        "pattern": "/SYS_RAW"
       },
       {
         "netclass": "Power",
-        "pattern": "BAT_RAW"
+        "pattern": "/BAT_RAW"
       },
       {
         "netclass": "Power",
-        "pattern": "VIN_SOLAR"
+        "pattern": "/VIN_SOLAR"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*J4-In*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*RF_ANT*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*RFC*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*SW_CTRL*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RFO_OUT*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*Net-(U6*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RFO_IN*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*RFI_IN*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RFO_IN"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RFI_N_OUT"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RFI_P_OUT"
+      },
+      {
+        "netclass": "Crystal",
+        "pattern": "*OSC32*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VDDA"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "Crystal",
+        "pattern": "/OSC_*"
       }
     ]
   },
