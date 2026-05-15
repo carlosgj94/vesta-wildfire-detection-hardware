@@ -8988,9 +8988,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "10f42456-f702-4a2d-bc14-b933d8cca22d")
 		(property "Reference" "TP1"
@@ -10435,7 +10435,7 @@
 				)
 			)
 		)
-		(property "Value" "8.0kΩ"
+		(property "Value" "7.87kΩ"
 			(at 297.434 87.884 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10578,9 +10578,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "43aa3af8-4d8d-404c-9d2c-a1c935eff7c6")
 		(property "Reference" "TP2"
@@ -13353,9 +13353,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a159ac6-59fa-4f81-b2ca-15f6c0637009")
@@ -16637,7 +16637,7 @@
 				)
 			)
 		)
-		(property "Value" "8.87(or 8.9)kΩ"
+		(property "Value" "8.87kΩ"
 			(at 295.402 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16887,7 +16887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical"
 			(at 231.14 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -17061,7 +17061,7 @@
 				)
 			)
 		)
-		(property "Value" "72kΩ"
+		(property "Value" "68kΩ"
 			(at 356.108 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
