@@ -662,6 +662,10 @@
       {
         "netclass": "Crystal",
         "pattern": "/OSC_*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "*U.FL1-*"
       }
     ]
   },
@@ -795,7 +799,7 @@
         "uuid": "c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
       }
     ],
-    "used_designators": "U5",
+    "used_designators": "U.FL1,J5,U5",
     "variants": []
   },
   "sheets": [
