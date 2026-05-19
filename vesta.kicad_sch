@@ -9462,7 +9462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:MPS_QFN-16_3x3mm_P0.5mm"
+		(property "Footprint" "JLCImport:BQ24074RGTR"
 			(at 316.23 96.52 0)
 			(hide yes)
 			(show_name no)
