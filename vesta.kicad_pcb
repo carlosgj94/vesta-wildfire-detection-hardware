@@ -4170,7 +4170,7 @@
 		(at 54 64.167526 180)
 		(descr "-25℃~+85℃ 1 1x2P 2 250V 2A 2P 2mm 4.7mm 6.05mm 6mm Brass PA66 PH Right Angle Tin UL94V-0 White 弯插,P=2mm Wire To Board Connector ROHS")
 		(tags "C5359610 CONN-TH_2P-P2.00_GP01-2001WR-2P WAFER-PH2.0-2PWZ XUNPU")
-		(property "Reference" "BATTERY"
+		(property "Reference" "BATTERY1"
 			(at 4 -3.332474 90)
 			(layer "F.SilkS")
 			(uuid "3fa4ba21-94dd-4dc6-9640-bae5e1d024d6")
@@ -7265,7 +7265,7 @@
 		(at 41.65 64.5)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
-		(property "Reference" "JP_TMR"
+		(property "Reference" "JP_TMR_DISABLE1"
 			(at 2.35 0 90)
 			(layer "F.SilkS")
 			(uuid "9a94a6b6-ae8c-4f9b-bf05-011140f3cbf4")
