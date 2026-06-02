@@ -4520,8 +4520,16 @@
 		(uuid "1969617f-57f3-494a-b29e-0d0a3a32074d")
 	)
 	(no_connect
+		(at 44.45 49.53)
+		(uuid "4020c22c-f7a7-4d6f-894b-f341adc73c4d")
+	)
+	(no_connect
 		(at 48.26 107.95)
 		(uuid "5f5d9bf5-bd19-40e0-baf1-43732153962b")
+	)
+	(no_connect
+		(at 44.45 41.91)
+		(uuid "5f9ae04c-fe2c-4b61-b939-fdae3423ed28")
 	)
 	(no_connect
 		(at 95.25 39.37)
@@ -4530,6 +4538,10 @@
 	(no_connect
 		(at 300.99 95.25)
 		(uuid "88a599bb-a3d1-42fb-bd2d-a9a09cd16b5a")
+	)
+	(no_connect
+		(at 44.45 46.99)
+		(uuid "9e48f9d4-ed71-4862-99ef-f274119684a0")
 	)
 	(no_connect
 		(at 35.56 118.11)
@@ -4544,8 +4556,24 @@
 		(uuid "aec4edeb-22e5-4e0c-b4c8-ffa289c6b08f")
 	)
 	(no_connect
+		(at 95.25 41.91)
+		(uuid "b2b1054c-ba8f-4446-8b80-19254c1055e9")
+	)
+	(no_connect
+		(at 95.25 67.31)
+		(uuid "ca0fe2a5-ae40-4f1c-a3ea-73113b0d72eb")
+	)
+	(no_connect
 		(at 95.25 54.61)
 		(uuid "e518250e-645f-436d-bcc8-c01e558e7696")
+	)
+	(no_connect
+		(at 44.45 44.45)
+		(uuid "e97ae49e-acf6-4917-8479-4207141a4df5")
+	)
+	(no_connect
+		(at 95.25 49.53)
+		(uuid "faa3264a-3c59-4838-b833-ccc3c48f1f19")
 	)
 	(wire
 		(pts
@@ -5756,6 +5784,16 @@
 			(justify left bottom)
 		)
 		(uuid "a101fdb3-1159-487c-9a6e-c2842c06c8f9")
+	)
+	(label "UART_TX"
+		(at 44.45 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad185117-da54-4122-86e0-121d2e2a5a54")
 	)
 	(label "3V3_SYS"
 		(at 364.49 81.28 0)
