@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.65,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 0.0,
+          "height": 0.889002,
+          "width": 0.448006
         },
         "silk_line_width": 0.1524,
         "silk_text_italic": false,
@@ -571,15 +571,15 @@
       },
       {
         "netclass": "Power",
-        "pattern": "/SYS_RAW"
+        "pattern": "SYS_RAW"
       },
       {
         "netclass": "Power",
-        "pattern": "/BAT_RAW"
+        "pattern": "BAT_RAW"
       },
       {
         "netclass": "Power",
-        "pattern": "/VIN_SOLAR"
+        "pattern": "VIN_SOLAR"
       },
       {
         "netclass": "Default",
@@ -777,7 +777,7 @@
         "uuid": "c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
       }
     ],
-    "used_designators": "#PWR1,#PWR14,#PWR20,#PWR22-23,#PWR26,#PWR30-34,#PWR53-54",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

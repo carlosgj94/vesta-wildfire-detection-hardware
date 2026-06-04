@@ -11008,7 +11008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcce24a1-f26f-44c1-b410-608fbc42db98")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 119.38 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11064,12 +11064,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "194214a1-720f-4da2-8f95-faeb159416f6")
+			(uuid "194214a1-720f-4da2-8f95-faeb159416f7")
 		)
 		(instances
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
-					(reference "#PWR?")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11450,7 +11450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c353a691-521b-4b49-927d-ac5b768f9558")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR016"
 			(at 367.03 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11505,12 +11505,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "194214a1-720f-4da2-8f95-faeb159416f6")
+			(uuid "194214a1-720f-4da2-8f95-faeb159416f8")
 		)
 		(instances
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
-					(reference "#PWR?")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11688,7 +11688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a880ab-9121-4bf7-ae4d-cf02be6d2794")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR015"
 			(at 167.64 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -11743,12 +11743,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "194214a1-720f-4da2-8f95-faeb159416f6")
+			(uuid "194214a1-720f-4da2-8f95-faeb159416f9")
 		)
 		(instances
 			(project "vesta"
 				(path "/c5f936b4-b0fb-4e34-a0d9-1910010faa6f"
-					(reference "#PWR?")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12613,7 +12613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 65.7352 132.08 0)
 			(hide yes)
 			(show_name no)
